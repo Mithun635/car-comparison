@@ -1,0 +1,27 @@
+/* UpdateProfile.css */
+.update-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding: 0 15px; /* Optional: Add padding to avoid content touching edges on small screens */
+  }
+  
+  .update-profile-form {
+    max-width: 500px; /* Adjust as needed */
+    width: 100%;
+    margin-top: -150px;
+    padding: 20px; /* Optional: Add padding to form for better aesthetics */
+    background-color: #f9f9f9; /* Optional: Add a background color for contrast */
+    border-radius: 8px; /* Optional: Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for a card-like effect */
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+  }
+  

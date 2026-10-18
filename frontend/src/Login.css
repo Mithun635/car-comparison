@@ -1,0 +1,42 @@
+/* Style for the background container */
+.background-container {
+  background-image: url('homepic.jpg'); /* Update with your background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Cover full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the card container */
+.containerr {
+  max-width: 390px; /* Adjust the max-width of the card */
+  width: 100%; /* Ensure it takes up full width of its container */
+}
+
+.cardd {
+  background-color:  #d3d3d3; /* White background for the card */
+  padding: 60px; /* Padding inside the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  min-height: 1pc; /* Minimum height*/
+}
+
+.btn-primaryss {
+  background-color: rgb(35, 38, 228); /* Black background for the button */
+  color: white; /* White text color */
+}
+
+.btn-primaryss:hover {
+  background-color: #6c7bce; /* Darker shade on hover */
+}
+
+.btn-link {
+  color: black; /* Link color */
+}
+
+.btn-link:hover {
+  color: #0056b3 !important; /* Hover color for the link */
+}

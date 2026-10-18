@@ -1,0 +1,32 @@
+/* CarCompare.css */
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    appearance: none;
+    cursor: pointer;
+}
+
+.custom-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.brand-option {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.dropdown-container {
+    margin-bottom: 20px;
+}

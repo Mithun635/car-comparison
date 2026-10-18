@@ -1,0 +1,65 @@
+.home-container {
+    text-align: center;
+    
+    margin-top: 350px  ; 
+  }
+
+.homepic h1,
+.homepic h4,
+.homepic p {
+  color: white !important ;
+}
+
+
+.custom-h1 {
+  color: white; /* White text */
+  font-size: 3rem; /* Adjust size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a shadow effect */
+  text-align: center; /* Center align */
+  margin: 20px 0; /* Add spacing */
+}
+
+
+  .homepic{
+    background-image: url('home06.jpg'); /* Adjust path to your image */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    height: 100vh; /* Makes sure the background covers the full viewport height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+  /* Base button styles */
+  .btnn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none !important;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: -550px !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  /* Primary button styles */
+  .btn-primaryy {
+    background-color: rgb(239, 241, 230)!important; /* Black background for primary button */
+    color: rgb(5, 5, 5)!important; /* White text color for contrast */
+  }
+  
+  /* Hover effect for primary button */
+  .btn-primary:hover {
+    background-color: #333; /* Darker shade of black on hover for subtle effect */
+  }
+  h4 {
+    color: #000000 !important; /* Replace with your desired color */
+  }
+  
+  p {
+    color: #000000; /* Replace with your desired color */
+  }
+  h1 {
+    color: #000000 !important; /* Replace with your desired color */
+  }
